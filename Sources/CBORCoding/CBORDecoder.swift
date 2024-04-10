@@ -6,7 +6,6 @@
 //
 
 import Foundation
-@_implementationOnly import Half
 
 #if canImport(Combine)
 import Combine
@@ -303,8 +302,8 @@ internal class __CBORDecoder: Decoder, SingleValueDecodingContainer {
             result = decodedValue
         } else if let decodedValue = value as? T {
             result = decodedValue
-        } else if type == Half.self {
-            result = try decodeFloatingPoint(value, as: Half.self) as! T
+        } else if type == Float16.self {
+            result = try decodeFloatingPoint(value, as: Float16.self) as! T
         } else {
             storage.push(container: value)
             defer { storage.popContainer() }
@@ -379,7 +378,7 @@ internal class __CBORDecoder: Decoder, SingleValueDecodingContainer {
 
     fileprivate func decodeFloatingPoint<T>(_ value: Any, as type: T.Type) throws -> T where T: BinaryFloatingPoint {
         let floatingPoint: T
-        if let half = value as? Half {
+        if let half = value as? Float16 {
             if half.isNaN {
                 if half.isSignalingNaN {
                     floatingPoint = .signalingNaN
