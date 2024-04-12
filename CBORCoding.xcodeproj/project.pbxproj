@@ -32,14 +32,6 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		8EBD20582B03BA9900036789 /* Half.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBD20572B03BA9900036789 /* Half.framework */; };
-		8EBD20592B03BA9900036789 /* Half.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBD20572B03BA9900036789 /* Half.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		8EBD205C2B03BAA400036789 /* Half.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBD205B2B03BAA400036789 /* Half.framework */; };
-		8EBD205D2B03BAA400036789 /* Half.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBD205B2B03BAA400036789 /* Half.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		8EBD20602B03BAA900036789 /* Half.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBD205F2B03BAA900036789 /* Half.framework */; };
-		8EBD20612B03BAA900036789 /* Half.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBD205F2B03BAA900036789 /* Half.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		8EBD20642B03BAAC00036789 /* Half.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBD20632B03BAAC00036789 /* Half.framework */; };
-		8EBD20652B03BAAC00036789 /* Half.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBD20632B03BAAC00036789 /* Half.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DD02B7E727476A13007F5569 /* CBORDecoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD02B7E227476A13007F5569 /* CBORDecoderTests.swift */; };
 		DD02B7E827476A13007F5569 /* CBORDecoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD02B7E227476A13007F5569 /* CBORDecoderTests.swift */; };
 		DD02B7E927476A13007F5569 /* CBORDecoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD02B7E227476A13007F5569 /* CBORDecoderTests.swift */; };
@@ -157,53 +149,6 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		8EBD205A2B03BA9900036789 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				8EBD20592B03BA9900036789 /* Half.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8EBD205E2B03BAA400036789 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				8EBD205D2B03BAA400036789 /* Half.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8EBD20622B03BAA900036789 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				8EBD20612B03BAA900036789 /* Half.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8EBD20662B03BAAC00036789 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				8EBD20652B03BAAC00036789 /* Half.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		8EBD20572B03BA9900036789 /* Half.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Half.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EBD205B2B03BAA400036789 /* Half.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Half.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -260,7 +205,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EBD20582B03BA9900036789 /* Half.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +220,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EBD205C2B03BAA400036789 /* Half.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +235,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EBD20602B03BAA900036789 /* Half.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +250,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EBD20642B03BAAC00036789 /* Half.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,7 +466,6 @@
 				DD86D53923D11B3E0046E63E /* Sources */,
 				DD86D53A23D11B3E0046E63E /* Frameworks */,
 				DD86D53B23D11B3E0046E63E /* Resources */,
-				8EBD205A2B03BA9900036789 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -565,7 +505,6 @@
 				DD86D56C23D11C860046E63E /* Sources */,
 				DD86D56D23D11C860046E63E /* Frameworks */,
 				DD86D56E23D11C860046E63E /* Resources */,
-				8EBD205E2B03BAA400036789 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -605,7 +544,6 @@
 				DD86D58823D11CA00046E63E /* Sources */,
 				DD86D58923D11CA00046E63E /* Frameworks */,
 				DD86D58A23D11CA00046E63E /* Resources */,
-				8EBD20622B03BAA900036789 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -645,7 +583,6 @@
 				DD86D5C023D11D140046E63E /* Sources */,
 				DD86D5C123D11D140046E63E /* Frameworks */,
 				DD86D5C223D11D140046E63E /* Resources */,
-				8EBD20662B03BAAC00036789 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1032,6 +969,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Debug;
 		};
@@ -1055,6 +993,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Release;
 		};
@@ -1206,6 +1145,7 @@
 				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = "Plists/CBORCoding-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1236,6 +1176,7 @@
 				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = "Plists/CBORCoding-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1260,6 +1201,7 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Plists/CBORCodingTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1281,6 +1223,7 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Plists/CBORCodingTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1331,6 +1274,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = com.somerandomiosdev.cborcoding;
@@ -1363,6 +1307,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = com.somerandomiosdev.cborcoding;
@@ -1389,6 +1334,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.somerandomiosdev.cborcodingtests;
 				PRODUCT_NAME = CBORCodingTests;
 				SDKROOT = macosx;
@@ -1412,6 +1358,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.somerandomiosdev.cborcodingtests;
 				PRODUCT_NAME = CBORCodingTests;
 				SDKROOT = macosx;
@@ -1447,6 +1394,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
 			};
 			name = Debug;
 		};
@@ -1477,6 +1425,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
 			};
 			name = Release;
 		};
@@ -1499,6 +1448,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
 			};
 			name = Debug;
 		};
@@ -1520,6 +1470,7 @@
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
 			};
 			name = Release;
 		};
@@ -1552,6 +1503,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Debug;
 		};
@@ -1583,6 +1535,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Release;
 		};

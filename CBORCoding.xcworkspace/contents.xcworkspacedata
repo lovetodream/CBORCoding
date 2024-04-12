@@ -4,7 +4,4 @@
    <FileRef
       location = "group:CBORCoding.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:Half/Half.xcodeproj">
-   </FileRef>
 </Workspace>

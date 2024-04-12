@@ -5,14 +5,14 @@ let package = Package(
     name: "CBORCoding",
 
     platforms: [
-        .iOS(.v12),
-        .macOS(.v10_13),
-        .tvOS(.v12),
-        .watchOS(.v6)
+        .iOS(.v14),
+        .macOS(.v11),
+        .tvOS(.v14),
+        .watchOS(.v7)
     ],
 
     products: [.library(name: "CBORCoding", targets: ["CBORCoding"])],
-    
+
     dependencies: [],
 
     targets: [
